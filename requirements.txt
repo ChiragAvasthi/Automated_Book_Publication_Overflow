@@ -1,0 +1,6 @@
+flask
+playwright
+chromadb
+python-dotenv
+textstat
+openai

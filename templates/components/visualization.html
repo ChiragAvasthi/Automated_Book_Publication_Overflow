@@ -1,0 +1,11 @@
+{% if stats %}
+<div>
+  <h2 class="text-lg font-semibold text-purple-300 mb-2">📊 Text Stats</h2>
+  <ul class="text-sm text-gray-300 space-y-1">
+    <li>Words: {{ stats.word_count }}</li>
+    <li>Sentences: {{ stats.sentence_count }}</li>
+    <li>Reading Time: {{ stats.read_time }} min</li>
+    <li>Readability: {{ stats.grade_level }}</li>
+  </ul>
+</div>
+{% endif %}
